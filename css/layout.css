@@ -1,0 +1,79 @@
+/* resets and font family */
+body {
+    padding: 0;
+    margin: 0;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-family: "Sen", sans-serif;
+}
+
+/* Generic container */
+.container {
+    width: 1280px;
+    margin: 0 auto;
+}
+
+/* Default title style */
+.page-title {
+    line-height: 1.1;
+    font-weight: 500;
+    font-size: 46px;
+    margin-bottom: 40px;
+}
+
+/*  ################################################### NAVBAR:BEGINNING #################################################  */
+
+nav {
+    height: 50px;
+    background-color: #b76481;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    justify-content: center;
+    display: flex;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a {
+    padding: 20px 30px;
+    display: block;
+    text-decoration: none;
+    color: #fff;
+}
+
+nav ul li a:hover {
+    background-color: #bb96a3;
+}
+
+/*  ################################################### NAVBAR:ENDING #################################################  */
+
+/*  ################################################### FOOTER:BEGINNING #################################################  */
+
+footer {
+    background-color: #b76481;
+    padding: 16px !important;
+    max-width: calc(100% - 32px);
+}
+
+/*  ################################################### FOOTER:ENDING #################################################  */
+
+/*  ################################################### RESPONSIVE-STYLES-BEGINNING #################################################  */
+
+/*tablet styles*/
+@media (max-width: 1280px) {
+    .container {
+        width: calc(100% - 2rem);
+        margin: 0;
+        padding: 0 1rem;
+    }
+}
+
+/*mobile styles*/
+@media (max-width: 768px) {}

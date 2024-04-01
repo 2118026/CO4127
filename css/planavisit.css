@@ -1,0 +1,40 @@
+/* card container */
+.card {
+    width: 100%;
+    border-radius: 5px;
+    border: 2px solid #b76481;
+    background-color: #bb96a3ac;
+    display: flex;
+    padding: 16px;
+    gap: 16px;
+    margin-bottom: 1.5rem;
+}
+
+/* card column one */
+.card .card-thumb {
+    width: 30%;
+}
+
+.card .card-thumb img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+/* card column two */
+.card .card-content {
+    width: 70%;
+}
+
+.page-subtitle {
+    font-size: 23px;
+
+}
+
+/*  ################################################### RESPONSIVE-STYLES-BEGINNING #################################################  */
+/* tablet styles */
+@media only screen and (max-width: 1280px) {
+    .card {
+        width: calc(100% - 36px);
+    }
+}
+
